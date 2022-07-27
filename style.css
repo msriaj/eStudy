@@ -8,6 +8,12 @@ img {
     width: 100%;
 }
 
+a:hover {
+    text-decoration: none;
+    color: #289BDE;
+
+}
+
 h1,
 h2 {
     color: #1D1D1D;
@@ -23,4 +29,14 @@ p {
 
 .carousel-item img {
     filter: brightness(50%);
+}
+
+.bg-custom,
+.btn-custom {
+    background-color: #289BDE;
+    color: #ffffff;
+}
+
+.text-custom {
+    color: #289BDE;
 }
