@@ -8,18 +8,12 @@ img {
     width: 100%;
 }
 
-a:hover {
-    text-decoration: none;
-    color: #289BDE;
-
-}
-
-h1,
 h2 {
     color: #1D1D1D;
 }
 
-h4 {
+h4,
+h5 {
     color: #4A4A4A;
 }
 
@@ -43,4 +37,15 @@ p {
 
 .bg-explore {
     background-color: #F4FAFD;
+}
+
+.carousel-caption h1 {
+    font-size: 3vh;
+
+}
+
+.carousel-caption p {
+    font-size: 1vh;
+
+
 }
